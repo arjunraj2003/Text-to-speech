@@ -58,31 +58,10 @@ body {
 }
 
 /* Media query for screens with a maximum width of 768px */
-@media (max-width: 768px) {
-  #container {
-    max-width: 90%;
-  }
-  #input {
-    font-size: 14px;
-  }
-  #speakBtn {
-    padding: 8px 16px;
-  }
+@media(max-width:400px){
+    .sidebar{
+        width: 100%;
+    }
 }
-
-/* Media query for screens with a maximum width of 480px */
-@media (max-width: 480px) {
-  #input {
-    font-size: 12px;
-  }
-  #speakBtn {
-    padding: 6px 12px;
-  }
-}
-
 /* Responsive text size for smaller screens */
-@media (max-width: 320px) {
-  #container h1 {
-    font-size: 20px;
-  }
-}
+
