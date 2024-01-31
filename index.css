@@ -58,10 +58,13 @@ body {
 }
 
 /* Media query for screens with a maximum width of 768px */
-@media(max-width:400px){
-    .sidebar{
-        width: 100%;
-    }
+@media (max-width: 480px) {
+  #container {
+    width: 100%;
+    
+
+  }
+  
 }
 /* Responsive text size for smaller screens */
 
